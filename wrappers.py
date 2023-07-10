@@ -1,7 +1,6 @@
 import enum
 import ctypes
 import os
-from typing import Optional, Self
 
 libc = ctypes.CDLL("./build/operations.so")
 
